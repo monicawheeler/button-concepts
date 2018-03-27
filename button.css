@@ -1,0 +1,31 @@
+.button {
+    --main-color: #2f4f4f;
+    --main-color-dark: #1C2F2F;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid var(--main-color);;
+    background-color: transparent;
+    padding: 15px 30px;
+    color: var(--main-color);;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: var(--main-color-dark);
+    color: var(--white);
+}
+
+.button:focus {
+    outline: var(--main-color) auto 4px;
+}
+
+.button:active {
+    background-color: var(--main-color-dark);
+}
